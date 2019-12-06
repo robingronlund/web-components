@@ -52,12 +52,6 @@ class AppDrawer extends HTMLElement {
   /**
    * Adds eventlistener in the initial lifeCycle
    */
-  connectedCallback() {
-    
-    // this.addEventListener('click', () => {
-    //   this.togglDrawer()
-    // })
-  }
 
   /**
    * Removes eventListener when 
@@ -65,7 +59,6 @@ class AppDrawer extends HTMLElement {
   disconnectedCallback() {
     this.removeEventListener('click');
   }
-
 
   /**
    * method to toggle the drawer
